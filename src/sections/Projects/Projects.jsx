@@ -1,6 +1,6 @@
 import styles from './ProjectsStyles.module.css';
-import video from '../../assets/video.png';
-import controller from '../../assets/controller.png';
+import tasks from '../../assets/images.jpeg';
+import identity from '../../assets/pngtree-vector-id-icon-png-image_1024864.jpg';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -9,16 +9,16 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={controller}
-          link="https://github.com/realTNEU/GameGear-ameya"
-          h3="GameGear"
-          p="Welcome to GameGear, an ambitious project where you can build your perfect PC based on your budget! This website is still under construction, but it's packed with potential."
+          src={tasks}
+          link="#"
+          h3="Task Scheduler using DAG"
+
         />
         <ProjectCard
-          src={video}
-          link="https://github.com/realTNEU/VideoElementGenerator"
-          h3="VideoElementGenerator"
-          p="This is a javascript script, which helps youtuber to fetch new youtube ideas and then write a script for th generated yourube ideas"
+          src={identity}  
+          link="#"
+          h3="DIMS"
+          p="Digital identity management system leveraging blockchain"
         />
       </div>
     </section>

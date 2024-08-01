@@ -8,7 +8,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/cv.pdf';
+import CV from '../../assets/cv_aaditya.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
@@ -36,15 +36,12 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          Ameya
+          Aaditya
           <br />
-          Taneja
+          Agarwal
         </h1>
-        <h2>Full-Stack Developer</h2>
+        <h2>Software Engineer</h2>
         <span>
-          <a href="https://twitter.com/tneu_dznz" target="_blank">
-            <img src={twitterIcon} alt="Twitter icon" />
-          </a>
           <a href="https://github.com/realTNEU" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
